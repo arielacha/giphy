@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$.get('http://api.giphy.com/v1/gifs/search?q=giphy&api_key=dc6zaTOxFJmzC', function(res) {
+	$.get('https://api.giphy.com/v1/gifs/search?q=giphy&api_key=dc6zaTOxFJmzC', function(res) {
 		if(res) {
 			$('.loading').delay(4000).addClass('loaded');
 			$.each( res.data , function ( index , data ){
