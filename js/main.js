@@ -5,7 +5,7 @@ $(document).ready(function(){
 			$.each( res.data , function ( index , data ){
 				$('.results').delay(300).append('<div class="result-cards">'
 												+ ' <img src="'+data.images.fixed_height.url+'" alt="" />' 
-												+ ' <input id="result'+index+'" type="text" value="'+data.embed_url+'"/>'
+												+ ' <input id="result'+index+'" type="text" value="'+data.images.fixed_height.url+'"/>'
 												+ ' <button class="copy-url" data-clipboard-target="#result'+index+'"><i class="fa fa-files-o" aria-hidden="true"></i></button>'
 												+ ' </div>'
 												);
