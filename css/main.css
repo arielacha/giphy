@@ -2,7 +2,7 @@ body {
 	margin: 0 auto;
 	padding: 0;
 	font-family: "Helvetica Neue", helvetica, sans-serif;
-	-webkit-anti-a
+	background-color: #e2e2e2;
 }
 h1 {
 	-webkit-font-smoothing: antialiased;
@@ -53,9 +53,10 @@ h1 {
 }
 
 .result-cards {
+	background-color: #fff;
 	width: 17%;
 	height: 250px;
-	box-shadow: 0px 4px 33px -7px #000;
+	box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.3);
 	border-radius: 3px;
 	margin: 16px;
 	float: left;
@@ -71,4 +72,17 @@ h1 {
     border: 1px solid #e0e0e0;
     margin: 12px;
     width: 63%;
+}
+
+.search-form {
+	width: 75%;
+	float: left;
+	text-align: right;
+	display: none;
+}
+.copy-url {
+	border: 1px solid #bcbcbc;
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
 }

@@ -4,11 +4,19 @@
 	<meta charset="UTF-8">
 	<title>Giphy</title>
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
 	<header class="loading">
 		<h1 class="center-heading">GIPHY</h1>
+
+		<div class="search-form">
+			<form class="s_form">
+				<input type="text" name="q" placeholder="Search"/>
+				<button>Submit</button>
+			</form>
+		</div>
 	</header>
 
 	<div class="container">
