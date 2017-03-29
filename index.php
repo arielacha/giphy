@@ -27,6 +27,8 @@
 	</div>
 	<p>This is a test</p>
 
+	<div>This is a Great application</div>
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="js/clipboard.min.js"></script>
 	<script src="js/main.js"></script>
