@@ -9,7 +9,6 @@ $(document).ready(function(){
 		var data = $(this).serialize();
 		get_results(data);
 	});
-
 	function get_results(query){
 
 		var s_query = query.replace('%20', '+');
