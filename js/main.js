@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	get_results('q=lobi');
+	get_results('q=logic');
 	new Clipboard('.copy-url');
 	$('.s_form').submit(function(e){
 		e.preventDefault();
