@@ -10,9 +10,7 @@ $(document).ready(function(){
 		get_results(data);
 	});
 	function get_results(query){
-
 		var s_query = query.replace('%20', '+');
-
 		$.get('https://api.giphy.com/v1/gifs/search?'+s_query+'&api_key=dc6zaTOxFJmzC', function(res) {
 			if(res) {
 				$('.results').empty();
