@@ -68,10 +68,10 @@ h1 {
 }
 .result-cards input {
 	padding: 4px;
-    border-radius: 2px;
-    border: 1px solid #e0e0e0;
-    margin: 12px;
-    width: 63%;
+    	border-radius: 2px;
+    	border: 1px solid #e0e0e0;
+    	margin: 12px;
+    	width: 63%;
 }
 
 .search-form {
