@@ -79,6 +79,7 @@ h1 {
 	float: left;
 	text-align: right;
 	display: none;
+	color: #000000;
 }
 .copy-url {
 	border: 1px solid #bcbcbc;
